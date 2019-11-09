@@ -40,18 +40,17 @@ def all_winter_holiday_supplies(wintery)
 end
 
 def all_supplies_in_holidays(hash)
-    holiday_supplies.each do |season, holiday|
-      season = "#{season}".capitalize + ":"
-        holiday.each do |holiday, supplies|
-     holiday = " " + "#{holiday}".capitalize
-    supplies.each do |supply, item|
+  puts season.to_s.capitalize + ":"
+    holiday.each do |holladay, value|
       puts item
       
 end
 
 def holiday_supplies_hash
   puts season.to_s.capitalize + ":"
-    holiday.each do |holla_day, value|
+    holiday.each do |holladay, value|
+    holidays.map do |holiday, supply|
+      holiday if supplies.include?("BBQ")
  end
 end.flatten.compact
 end
