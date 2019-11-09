@@ -46,17 +46,33 @@ def all_supplies_in_holidays(hash)
       
 end
 
-      holiday_hash.each do |season, holiday|
-        puts "#{season}".to_s.capitalize + ":" 
-          holiday.each do |holladay, value|
-    umm = holladay.to_s.split("_")
-      umm.each do |embiggen|
-        embiggen.capitalize
-        if umm.length > 1
-          umm.join
+  
+holiday_supplies.each do |season, holiday|
+    puts season.to_s.capitalize + ":" 
+    holiday.each do |literal_holiday, value|
+      opperate = literal_holiday.to_s.split("_")
+      opperate.each do |n|
+        n.capitalize!
+        if opperate.length > 1
+          opperate.join
         end
       end
-      puts "  #{umm.join(" ")}: #{value.join(", ")}"
+      puts "  #{opperate.join(" ")}: #{value.join(", ")}"
     end
   end
+end
+
+def all_holidays_with_bbq(holiday_hash)
+  # return an array of holiday names (as symbols) where supply lists
+  # include the string "BBQ"
+
+  bbq_holidays = []
+  holiday_hash.each do |season, holiday|
+    holiday.each do |literal_holiday, items|
+      if items.include?("BBQ")
+        bbq_holidays << literal_holiday
+      end
+    end
+  end
+  bbq_holidays
 end
