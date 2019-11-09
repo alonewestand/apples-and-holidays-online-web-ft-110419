@@ -41,7 +41,7 @@ end
 
   def all_supplies_in_holidays(holiday_supplies)
 holiday_supplies.each do |season, holiday|
-    puts season.to_s.capitalize + ":" 
+    puts "#{season}".to_s.capitalize + ":" 
     holiday.each do |literal_holiday, value|
       opperate = literal_holiday.to_s.split("_")
       opperate.each do |n|
