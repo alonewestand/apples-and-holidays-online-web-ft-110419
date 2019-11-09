@@ -57,3 +57,4 @@ def holiday_supplies_hash
  end
 end.flatten.compact
 end
+
