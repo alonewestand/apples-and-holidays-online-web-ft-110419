@@ -47,7 +47,7 @@ holiday_supplies.each do |season, holiday|
       help_me.each do |it|
         it.capitalize!
         if help_me.length > 1
-          opperate.join
+          help_me.join
         end
       end
       puts "  #{opperate.join(" ")}: #{value.join(", ")}"
