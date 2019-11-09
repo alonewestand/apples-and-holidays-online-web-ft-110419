@@ -50,7 +50,7 @@ holiday_supplies.each do |season, holiday|
           help_me.join
         end
       end
-      puts "  #{opperate.join(" ")}: #{value.join(", ")}"
+      puts "  #{help_me.join(" ")}: #{value.join(", ")}"
     end
   end
 end
