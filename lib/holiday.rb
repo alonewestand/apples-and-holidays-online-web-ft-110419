@@ -43,7 +43,7 @@ end
 holiday_supplies.each do |season, holiday|
     puts "#{season}".to_s.capitalize + ":" 
     holiday.each do |literal_holiday, value|
-      opperate = literal_holiday.to_s.split("_")
+      help = literal_holiday.to_s.split("_")
       opperate.each do |n|
         n.capitalize!
         if opperate.length > 1
