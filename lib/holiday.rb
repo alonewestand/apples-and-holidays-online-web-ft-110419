@@ -46,12 +46,12 @@ def all_supplies_in_holidays(hash)
       
 end
 
-
-
-  holiday_hash.each do |season, holiday|
-    puts season.to_s.capitalize + ":" 
-    holiday.each do |literal_holiday, value|
-      opperate = literal_holiday.to_s.split("_")
+def oh_boy_here_we_go
+  
+      holiday_hash.each do |season, holiday|
+        puts season.to_s.capitalize + ":" 
+          holiday.each do |holladay, value|
+      holladay.to_s.split("_")
       opperate.each do |n|
         n.capitalize!
         if opperate.length > 1
