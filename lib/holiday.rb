@@ -49,7 +49,7 @@ end
 def oh_boy_here_we_go
   
       holiday_hash.each do |season, holiday|
-        puts season.to_s.capitalize + ":" 
+        puts "#{season}".to_s.capitalize + ":" 
           holiday.each do |holladay, value|
     umm = holladay.to_s.split("_")
       umm.each do |embiggen|
