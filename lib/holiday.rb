@@ -50,7 +50,7 @@ def all_supplies_in_holidays(hash)
 end
 
 def holiday_supplies_hash
-  holiday_supplies_hash.map do |season, holiday|
+  season.to_s.capitalize + ":" 
     holidays.map do |holiday, supply|
       holiday if supplies.include?("BBQ")
  end
