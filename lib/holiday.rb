@@ -44,7 +44,7 @@ holiday_supplies.each do |season, holiday|
     puts "#{season}".to_s.capitalize + ":" 
     holiday.each do |literal_holiday, value|
       help_me = literal_holiday.to_s.split("_")
-      opperate.each do |it|
+      help_me.each do |it|
         it.capitalize!
         if opperate.length > 1
           opperate.join
