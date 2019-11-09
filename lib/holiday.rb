@@ -61,6 +61,5 @@ def all_holidays_with_bbq(holiday_supplies)
       holiday if supplies.include?("BBQ")
         puts holiday
     end
-    puts holiday
 end
 end
