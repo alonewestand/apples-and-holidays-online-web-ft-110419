@@ -51,14 +51,14 @@ def oh_boy_here_we_go
       holiday_hash.each do |season, holiday|
         puts season.to_s.capitalize + ":" 
           holiday.each do |holladay, value|
-      holladay.to_s.split("_")
-      opperate.each do |n|
-        n.capitalize!
-        if opperate.length > 1
-          opperate.join
+    umm = holladay.to_s.split("_")
+      umm.each do |embiggen|
+        embiggen.capitalize
+        if umm.length > 1
+          umm.join
         end
       end
-      puts "  #{opperate.join(" ")}: #{value.join(", ")}"
+      puts "  #{umm.join(" ")}: #{value.join(", ")}"
     end
   end
 
