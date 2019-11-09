@@ -16,6 +16,7 @@ holiday_supplies = {
   }
 }
 
+holiday_supplies[:winter].to_str + holiday_supplies
 
 def second_supply_for_fourth_of_july(holiday_hash)
   holiday_hash[:summer][:fourth_of_july][1]
