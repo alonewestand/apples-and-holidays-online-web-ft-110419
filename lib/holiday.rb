@@ -39,13 +39,6 @@ def all_winter_holiday_supplies(wintery)
   end.flatten
 end
 
-def all_supplies_in_holidays(hash)
-  puts "#{season}".to_s.capitalize + ":"
-    holiday.each do |holladay, value|
-      puts item
-      
-end
-
   def all_supplies_in_holidays(holiday_hash)
 holiday_supplies.each do |season, holiday|
     puts season.to_s.capitalize + ":" 
