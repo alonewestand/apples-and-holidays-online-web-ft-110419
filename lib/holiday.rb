@@ -61,18 +61,3 @@ def oh_boy_here_we_go
       puts "  #{umm.join(" ")}: #{value.join(", ")}"
     end
   end
-
-
-
-
-def holiday_supplies_hash
-  puts season.to_s.capitalize + ":"
-    holiday.each do |holladay, value|
-    holidays.map do |holiday, supply|
-      holiday if supplies.include?("BBQ")
- end
-end.flatten.compact
-end
-end
-end
-end
