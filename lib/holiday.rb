@@ -47,7 +47,7 @@ def all_supplies_in_holidays(hash)
     end
     end
   end
-  all_supplies_in_holidays(hash)
+  flatten
 end
 
 def holiday_supplies_hash
