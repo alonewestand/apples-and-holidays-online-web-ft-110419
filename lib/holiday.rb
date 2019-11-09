@@ -59,6 +59,7 @@ def all_holidays_with_bbq(holiday_supplies)
   holiday_supplies.map do |season, holidays|
     holidays.map do |holiday, supplies|
       holiday if supplies.include?("BBQ")
+        puts holiday
     end
     puts holiday
 end
