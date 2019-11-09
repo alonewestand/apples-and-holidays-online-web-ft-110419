@@ -56,5 +56,4 @@ def holiday_supplies_hash
       holiday if supplies.include?("BBQ")
  end
 end.flatten.compact
-all_holidays_with_bbq(holiday_supplies_hash)
 end
