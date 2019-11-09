@@ -46,7 +46,7 @@ holiday_supplies.each do |season, holiday|
       help_me = literal_holiday.to_s.split("_")
       help_me.each do |it|
         it.capitalize!
-        if opperate.length > 1
+        if help_me.length > 1
           opperate.join
         end
       end
